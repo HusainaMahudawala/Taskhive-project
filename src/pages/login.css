@@ -1,0 +1,105 @@
+.auth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f1f5ff, #f8fafc);
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+/* Login box */
+.auth-box {
+  width: 380px;
+  background: #ffffff;
+  padding: 34px;
+  border-radius: 16px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* Title */
+.auth-box h2 {
+  margin-bottom: 8px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+/* Optional subtitle */
+.auth-box::after {
+  content: "Sign in to manage your tasks";
+  display: block;
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 22px;
+}
+
+/* Input wrapper */
+.input-group {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.input-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 6px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.25s, box-shadow 0.25s;
+}
+
+.input-group input::placeholder {
+  color: #9ca3af;
+}
+
+.input-group input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.18);
+}
+
+/* Login button */
+.auth-btn {
+  width: 100%;
+  padding: 13px;
+  margin-top: 6px;
+  background: #6366f1;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.25s, box-shadow 0.25s;
+}
+
+.auth-btn:hover {
+  background: #4f46e5;
+  box-shadow: 0 8px 18px rgba(99, 102, 241, 0.35);
+}
+
+/* Signup switch text */
+.switch {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.switch a {
+  color: #6366f1;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.switch a:hover {
+  text-decoration: underline;
+}

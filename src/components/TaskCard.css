@@ -1,0 +1,46 @@
+.task-card {
+  background: #f9fafc;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  border: 1px solid #e5e7eb;
+  transition: 0.2s ease;
+}
+
+.task-card:hover {
+  background: #eef2ff;
+  border-color: #6366f1;
+}
+.task-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #ef4444;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  transform: scale(1.2);
+}
+.task-card {
+  background: white;
+  padding: 14px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  cursor: grab;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.task-card:active {
+  cursor: grabbing;
+  transform: scale(0.97);
+}
